@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  IndexTableViewController.h
 //  SPDY Demo
 //
 //  Created by Jack Chen on 8/11/2014.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface IndexTableViewController : UITableViewController
 
 @end
-

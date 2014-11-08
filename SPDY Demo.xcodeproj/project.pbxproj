@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		58C8F1EE1A0DD878001D08CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F1ED1A0DD878001D08CF /* main.m */; };
 		58C8F1F11A0DD878001D08CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F1F01A0DD878001D08CF /* AppDelegate.m */; };
-		58C8F1F41A0DD878001D08CF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F1F31A0DD878001D08CF /* FirstViewController.m */; };
-		58C8F1F71A0DD878001D08CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F1F61A0DD878001D08CF /* SecondViewController.m */; };
 		58C8F1FA1A0DD878001D08CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C8F1F81A0DD878001D08CF /* Main.storyboard */; };
 		58C8F1FC1A0DD878001D08CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C8F1FB1A0DD878001D08CF /* Images.xcassets */; };
 		58C8F1FF1A0DD878001D08CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C8F1FD1A0DD878001D08CF /* LaunchScreen.xib */; };
-		58C8F20B1A0DD878001D08CF /* SPDY_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F20A1A0DD878001D08CF /* SPDY_DemoTests.m */; };
+		58C8F2161A0DE0FC001D08CF /* RemoteResourceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F2151A0DE0FC001D08CF /* RemoteResourceTableViewController.m */; };
+		58C8F2191A0DE5B6001D08CF /* LoadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F2181A0DE5B6001D08CF /* LoadTableViewCell.m */; };
+		58C8F21C1A0DEA0C001D08CF /* IndexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F21B1A0DEA0C001D08CF /* IndexTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +33,16 @@
 		58C8F1ED1A0DD878001D08CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58C8F1EF1A0DD878001D08CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58C8F1F01A0DD878001D08CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58C8F1F21A0DD878001D08CF /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		58C8F1F31A0DD878001D08CF /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		58C8F1F51A0DD878001D08CF /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		58C8F1F61A0DD878001D08CF /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		58C8F1F91A0DD878001D08CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C8F1FB1A0DD878001D08CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58C8F1FE1A0DD878001D08CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58C8F2041A0DD878001D08CF /* SPDY DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPDY DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		58C8F2091A0DD878001D08CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58C8F20A1A0DD878001D08CF /* SPDY_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDY_DemoTests.m; sourceTree = "<group>"; };
+		58C8F2141A0DE0FC001D08CF /* RemoteResourceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteResourceTableViewController.h; sourceTree = "<group>"; };
+		58C8F2151A0DE0FC001D08CF /* RemoteResourceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteResourceTableViewController.m; sourceTree = "<group>"; };
+		58C8F2171A0DE5B6001D08CF /* LoadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadTableViewCell.h; sourceTree = "<group>"; };
+		58C8F2181A0DE5B6001D08CF /* LoadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadTableViewCell.m; sourceTree = "<group>"; };
+		58C8F21A1A0DEA0C001D08CF /* IndexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexTableViewController.h; sourceTree = "<group>"; };
+		58C8F21B1A0DEA0C001D08CF /* IndexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				58C8F1EA1A0DD878001D08CF /* SPDY Demo */,
-				58C8F2071A0DD878001D08CF /* SPDY DemoTests */,
 				58C8F1E91A0DD878001D08CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,14 +85,16 @@
 			children = (
 				58C8F1EF1A0DD878001D08CF /* AppDelegate.h */,
 				58C8F1F01A0DD878001D08CF /* AppDelegate.m */,
-				58C8F1F21A0DD878001D08CF /* FirstViewController.h */,
-				58C8F1F31A0DD878001D08CF /* FirstViewController.m */,
-				58C8F1F51A0DD878001D08CF /* SecondViewController.h */,
-				58C8F1F61A0DD878001D08CF /* SecondViewController.m */,
 				58C8F1F81A0DD878001D08CF /* Main.storyboard */,
 				58C8F1FB1A0DD878001D08CF /* Images.xcassets */,
 				58C8F1FD1A0DD878001D08CF /* LaunchScreen.xib */,
 				58C8F1EB1A0DD878001D08CF /* Supporting Files */,
+				58C8F2141A0DE0FC001D08CF /* RemoteResourceTableViewController.h */,
+				58C8F2151A0DE0FC001D08CF /* RemoteResourceTableViewController.m */,
+				58C8F2171A0DE5B6001D08CF /* LoadTableViewCell.h */,
+				58C8F2181A0DE5B6001D08CF /* LoadTableViewCell.m */,
+				58C8F21A1A0DEA0C001D08CF /* IndexTableViewController.h */,
+				58C8F21B1A0DEA0C001D08CF /* IndexTableViewController.m */,
 			);
 			path = "SPDY Demo";
 			sourceTree = "<group>";
@@ -103,23 +104,6 @@
 			children = (
 				58C8F1EC1A0DD878001D08CF /* Info.plist */,
 				58C8F1ED1A0DD878001D08CF /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		58C8F2071A0DD878001D08CF /* SPDY DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				58C8F20A1A0DD878001D08CF /* SPDY_DemoTests.m */,
-				58C8F2081A0DD878001D08CF /* Supporting Files */,
-			);
-			path = "SPDY DemoTests";
-			sourceTree = "<group>";
-		};
-		58C8F2081A0DD878001D08CF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				58C8F2091A0DD878001D08CF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -224,9 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C8F1F71A0DD878001D08CF /* SecondViewController.m in Sources */,
+				58C8F2161A0DE0FC001D08CF /* RemoteResourceTableViewController.m in Sources */,
+				58C8F2191A0DE5B6001D08CF /* LoadTableViewCell.m in Sources */,
 				58C8F1F11A0DD878001D08CF /* AppDelegate.m in Sources */,
-				58C8F1F41A0DD878001D08CF /* FirstViewController.m in Sources */,
+				58C8F21C1A0DEA0C001D08CF /* IndexTableViewController.m in Sources */,
 				58C8F1EE1A0DD878001D08CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +220,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C8F20B1A0DD878001D08CF /* SPDY_DemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SPDY Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SPDY Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
